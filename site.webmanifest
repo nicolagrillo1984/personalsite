@@ -1,0 +1,11 @@
+{
+  "name": "Nicola Grillo — Director, Data, AI & CRM Systems",
+  "short_name": "Nicola Grillo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121214",
+  "theme_color": "#121214",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

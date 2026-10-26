@@ -87,7 +87,7 @@
         }
         $("f-title").value = titleMatch[1].trim();
         $("f-body").value = bodyMatch[1].trim();
-        $("btn-view").href = "/blog/" + slug + "/";
+        $("btn-view").href = "../blog/" + slug + "/";
         setStatus(editorStatus, "Caricato.", "ok");
       })
       .catch(function (err) {

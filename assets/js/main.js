@@ -73,6 +73,14 @@
       el.style.setProperty("--i", i % 6);
       ro.observe(el);
     });
+    // Safety net: some mobile browsers/background tabs throttle or never
+    // fire IntersectionObserver callbacks, which would otherwise leave
+    // content permanently invisible (opacity:0). Force it visible after
+    // a short delay no matter what.
+    setTimeout(function () {
+      revealEls.forEach(function (el) { el.classList.add("is-visible"); });
+      ro.disconnect();
+    }, 1500);
   } else {
     revealEls.forEach(function (el) { el.classList.add("is-visible"); });
   }

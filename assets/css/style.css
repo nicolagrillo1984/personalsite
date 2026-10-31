@@ -497,6 +497,12 @@ ul{ margin:0; padding:0; list-style:none; }
   font-family:"Bricolage Grotesque",sans-serif; font-size:clamp(20px,2.6vw,25px); font-weight:600;
   color:var(--ink); line-height:1.4;
 }
+.article-prose .table-scroll{ overflow-x:auto; margin:0 0 26px; -webkit-overflow-scrolling:touch; }
+.article-prose table{ width:100%; min-width:460px; border-collapse:collapse; margin:0; font-size:15.5px; }
+.article-prose th, .article-prose td{ padding:12px 16px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+.article-prose th{ color:var(--ink); font-weight:600; font-size:12.5px; text-transform:uppercase; letter-spacing:.04em; white-space:nowrap; }
+.article-prose td{ color:var(--ink-dim); line-height:1.6; }
+.article-prose table tr:last-child td{ border-bottom:none; }
 .article-tags{ display:flex; flex-wrap:wrap; gap:8px; margin-top:40px; padding-top:30px; border-top:1.5px solid var(--line); }
 
 /* share + comments */

@@ -23,6 +23,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://nicolagrillo.dev/blog/due-giorni-un-mese-adozione-ai/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://nicolagrillo.dev/blog/agente-ai-responsabilita-produzione/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

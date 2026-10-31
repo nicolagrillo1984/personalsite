@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Nicola Grillo — Blog</title>
+  <link>https://nicolagrillo1984.github.io/personalsite/blog/</link>
+  <atom:link href="https://nicolagrillo1984.github.io/personalsite/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Data, AI &amp; CRM Systems: note, casi e riflessioni su come portare l'intelligenza artificiale dalla sperimentazione al valore misurabile in azienda.</description>
+  <language>it</language>
+  <lastBuildDate>Sat, 31 Oct 2026 10:00:00 +0100</lastBuildDate>
+
+  <item>
+    <title>Prima degli agenti, le basi</title>
+    <link>https://nicolagrillo1984.github.io/personalsite/blog/prima-degli-agenti-le-basi/</link>
+    <guid>https://nicolagrillo1984.github.io/personalsite/blog/prima-degli-agenti-le-basi/</guid>
+    <description>Un agente messo sopra dati sporchi e processi non mappati non li risolve: li rende solo più veloci nel produrre errori. Prima degli agenti servono le basi.</description>
+    <pubDate>Sat, 31 Oct 2026 10:00:00 +0100</pubDate>
+  </item>
+
+  <item>
+    <title>Due giorni per costruirlo, un mese per darlo a tutti</title>
+    <link>https://nicolagrillo1984.github.io/personalsite/blog/due-giorni-un-mese-adozione-ai/</link>
+    <guid>https://nicolagrillo1984.github.io/personalsite/blog/due-giorni-un-mese-adozione-ai/</guid>
+    <description>Il paradosso dell'AI in azienda: costruire costa giorni, adottare costa ancora mesi. Non è solo burocrazia: è un processo tarato su un mondo che non esiste più.</description>
+    <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+  </item>
+
+  <item>
+    <title>Un agente AI in produzione è una risorsa. E deve avere un responsabile</title>
+    <link>https://nicolagrillo1984.github.io/personalsite/blog/agente-ai-responsabilita-produzione/</link>
+    <guid>https://nicolagrillo1984.github.io/personalsite/blog/agente-ai-responsabilita-produzione/</guid>
+    <description>L'agente che chiedi diventa una tua risorsa: conoscila, gestiscila, e abbi il coraggio di ritirarla o formarla quando serve.</description>
+    <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+  </item>
+
+  <item>
+    <title>L'AI cambierà il lavoro. Ma la partita vera si gioca sull'organizzazione</title>
+    <link>https://nicolagrillo1984.github.io/personalsite/blog/ai-organizzazione-team-ad-hoc/</link>
+    <guid>https://nicolagrillo1984.github.io/personalsite/blog/ai-organizzazione-team-ad-hoc/</guid>
+    <description>Non sarà il tool a fare la differenza. Sarà come ridisegniamo i team intorno all'AI: dalle business unit stabili alle squadre ad hoc che nascono e si sciolgono con i problemi.</description>
+    <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+  </item>
+
+</channel>
+</rss>

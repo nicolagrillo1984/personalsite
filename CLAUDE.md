@@ -125,6 +125,21 @@ CSS custom properties, defined in `assets/css/style.css` `:root`:
   asset, regenerate via the Pillow script pattern used for `og-cover.jpg`
   if it needs updating, not a redesign from scratch).
 
+## Compliance & security (state as of 2026-10-31)
+
+- The admin CMS (`admin/index.html`) uses a user-supplied, fine-grained
+  GitHub personal access token (repo-scoped, content read/write only),
+  entered each session. It is kept only in page memory — never written to
+  `localStorage`, never sent anywhere except `api.github.com` over HTTPS.
+  `robots.txt` disallows `/admin/` and the page ships
+  `<meta name="robots" content="noindex, nofollow, noarchive">`. Preserve
+  all of this exactly if `admin/index.html` is ever touched.
+- **Known gap**: there is no standalone privacy/cookie policy page. The
+  cookie banner's inline explanation is not a substitute for one — this is
+  an open item, not yet scheduled.
+- GA4 consent handling is covered above under Analytics; it's also the
+  main GDPR-relevant mechanism on the site today.
+
 ## Where things are
 
 - `index.html`, `en/index.html` — homepage (IT/EN mirror).

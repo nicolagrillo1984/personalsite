@@ -136,11 +136,15 @@ CSS custom properties, defined in `assets/css/style.css` `:root`:
   preserved as an "archive" at their existing URLs (no redirects — the
   explicit decision was to keep this site as the canonical "home" and treat
   Blogspot as a bridge, not to migrate/merge content).
-- LinkedIn (`linkedin.com/in/nicola-grillo-2277b113`) is the other anchor
-  property. A site-styled LinkedIn cover image lives at
-  `assets/img/linkedin-banner.jpg` (not referenced by any page — a design
-  asset, regenerate via the Pillow script pattern used for `og-cover.jpg`
-  if it needs updating, not a redesign from scratch).
+- LinkedIn (`linkedin.com/in/nicola-grillo-2277b113`) and the GitHub profile
+  (`github.com/nicolagrillo1984`, via a `nicolagrillo1984/nicolagrillo1984`
+  README repo) are the other anchor properties. A site-styled banner image
+  lives at `assets/img/linkedin-banner.jpg` — not referenced by any page on
+  this site, but used externally as the header image on both the LinkedIn
+  cover and the GitHub profile README (so it needs a stable public URL,
+  which is why it's committed here). Regenerate via the Pillow script
+  pattern used for `og-cover.jpg` if it needs updating, not a redesign from
+  scratch.
 
 ## Compliance & security (state as of 2026-10-31)
 

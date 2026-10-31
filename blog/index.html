@@ -23,7 +23,17 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="../assets/css/style.css?v=9">
+<link rel="stylesheet" href="../assets/css/style.css?v=10">
+
+<!-- Google tag (gtag.js) -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', { 'analytics_storage': 'denied' });
+  gtag('js', new Date());
+  gtag('config', 'G-EZW7PYTDT3');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZW7PYTDT3"></script>
 </head>
 <body>
 <a href="#main" class="skip-link">Vai al contenuto</a>
@@ -283,6 +293,15 @@
   </div>
 </footer>
 
-<script src="../assets/js/main.js?v=9"></script>
+<div class="cookie-banner" id="cookieBanner" hidden="">
+  <p>Questo sito usa Google Analytics per capire come viene usato (dati aggregati, nessuna pubblicità). Attivo solo se accetti; puoi cambiare idea in qualsiasi momento cancellando i cookie del browser.</p>
+  <div class="cookie-banner-actions">
+    <button type="button" id="cookieDecline" class="btn btn-ghost">Rifiuta</button>
+    <button type="button" id="cookieAccept" class="btn btn-primary">Accetta</button>
+  </div>
+</div>
+
+<script src="../assets/js/main.js?v=10"></script>
+<script src="../assets/js/analytics.js?v=1"></script>
 </body>
 </html>

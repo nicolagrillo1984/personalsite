@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://nicolagrillo.dev/sitemap.xml
+Sitemap: https://nicolagrillo1984.github.io/personalsite/sitemap.xml

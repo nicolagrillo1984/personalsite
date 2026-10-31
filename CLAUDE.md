@@ -5,6 +5,23 @@ Personal site of Nicola Grillo (Director, Data, AI & CRM Systems). Live at
 site on the default domain — no custom domain is owned, never reference
 `nicolagrillo.dev` anywhere).
 
+## Agents & the publish pipeline
+
+`.claude/agents/` defines 9 specialized roles: architect, content-writer,
+ai-data-expert, site-developer, qa-tester, analytics-analyst, marketing,
+compliance, security — each file documents its own scope and what it hands
+off to whom. Default autonomy level across all of them: **propose, then the
+user approves** — no agent commits/pushes or publishes content on its own
+judgment call.
+
+Publishing a new blog article is never a single agent's job — it's
+orchestrated. `.claude/skills/publish-article/SKILL.md` is that
+orchestration: content-writer drafts → ai-data-expert reviews → user
+approval gate → qa-tester verifies → compliance checks → (site-developer
+and security only if the article needed actual code changes) → a second
+user approval gate before `git push`. Use that skill rather than
+re-deriving the sequence from scratch.
+
 ## Stack & constraints
 
 - Static HTML/CSS/JS. No framework, no build step, no bundler, no database.

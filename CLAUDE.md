@@ -1,6 +1,6 @@
 # nicolagrillo1984/personalsite
 
-Personal site of Nicola Grillo (Director, Data, AI & CRM Systems). Live at
+Personal site of Nicola Grillo. Live at
 `https://nicolagrillo1984.github.io/personalsite/` via GitHub Pages (project
 site on the default domain — no custom domain is owned, never reference
 `nicolagrillo.dev` anywhere).

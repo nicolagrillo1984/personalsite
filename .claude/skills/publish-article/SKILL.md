@@ -15,7 +15,7 @@ If the user gave a topic, a brief, or an artifact link, use it as-is. If they ju
 
 ## 2. Draft — `content-writer`
 
-Spawn `content-writer` with the source material and a direction to produce (not commit): the article HTML following the template, a cover SVG, and the planned diffs to `blog/index.html`, `sitemap.xml`, `feed.xml`. Tell it which existing articles are plausible "Continua a leggere" matches, or ask it to pick.
+Spawn `content-writer` with the source material and a direction to produce (not commit): the article HTML following the template, a cover SVG, the required `.article-copyright` notice + JSON-LD `copyrightHolder`/`copyrightYear` (see `CLAUDE.md` content policy), and the planned diffs to `blog/index.html`, `sitemap.xml`, `feed.xml`. Tell it which existing articles are plausible "Continua a leggere" matches, or ask it to pick.
 
 ## 3. Technical review — `ai-data-expert`
 
@@ -31,7 +31,7 @@ Only if the article needs something beyond the standard template (a new componen
 
 ## 6. Verification — `qa-tester`
 
-Spawn `qa-tester` to run its full checklist against the draft: console errors, mobile overflow, the cover renders, the new "Continua a leggere" links resolve both ways, RSS/sitemap entries are well-formed. Get a pass/fail report, not a vibe check.
+Spawn `qa-tester` to run its full checklist against the draft: console errors, mobile overflow, the cover renders, the new "Continua a leggere" links resolve both ways, RSS/sitemap entries are well-formed, and the `.article-copyright` notice + JSON-LD copyright fields are present. Get a pass/fail report, not a vibe check.
 
 ## 7. Compliance pass — `compliance`
 

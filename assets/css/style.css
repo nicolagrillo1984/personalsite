@@ -504,6 +504,7 @@ ul{ margin:0; padding:0; list-style:none; }
 .article-prose td{ color:var(--ink-dim); line-height:1.6; }
 .article-prose table tr:last-child td{ border-bottom:none; }
 .article-tags{ display:flex; flex-wrap:wrap; gap:8px; margin-top:40px; padding-top:30px; border-top:1.5px solid var(--line); }
+.article-copyright{ font-size:13.5px; color:var(--ink-faint); margin-top:20px; }
 
 /* share + comments */
 .share-row{ display:flex; align-items:center; gap:10px; margin-top:24px; }

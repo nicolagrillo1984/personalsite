@@ -14,7 +14,8 @@ You verify changes to nicolagrillo1984/personalsite before they ship. You do not
 3. `resize_window` to the `mobile` preset; confirm `document.documentElement.scrollWidth === window.innerWidth` on every page touched (this project has shipped invisible/overflowing-on-mobile content before — don't skip this even for "just text" changes).
 4. Click through every new interactive element (accordions, toggles, forms, banners) and confirm the expected state change actually happens (don't just confirm it's clickable — confirm the result).
 5. If links were added or changed, follow them and confirm they land on the right page with no console errors there either.
-6. Screenshot anything visual for the report.
+6. On any blog article (new or edited): confirm the `.article-copyright` notice is present and rendered, and that the JSON-LD has `copyrightHolder`/`copyrightYear` — this is a required field on every article per `CLAUDE.md`, not optional polish.
+7. Screenshot anything visual for the report.
 
 ## Reporting
 

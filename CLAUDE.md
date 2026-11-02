@@ -96,6 +96,16 @@ CSS custom properties, defined in `assets/css/style.css` `:root`:
   related posts. Keep this web connected when adding a new article — pick
   2 related posts and also add the new article to 1–2 existing articles'
   related blocks if it's a better fit than what's there.
+- Every blog article carries an explicit copyright notice: a visible
+  `.article-copyright` line right after `.article-tags` (© + "tutti i
+  diritti riservati" + no-reproduction wording) and matching
+  `copyrightHolder`/`copyrightYear` fields in the article's JSON-LD. This
+  is the real protection (a legal rights claim + a machine-readable
+  signal); deliberately **not** implemented as text-selection/right-click
+  blocking, which the user considered and rejected as trivially bypassable
+  (view-source/DevTools) and harmful to accessibility and legitimate
+  quoting. See `blog/prima-degli-agenti-le-basi/index.html` for the
+  pattern.
 - **Collapsible sections for content that's valid but not worth showing by
   default** (e.g. full CV timeline, which duplicates LinkedIn): use native
   `<details class="collapsible-section"><summary>...</summary>...</details>`,
